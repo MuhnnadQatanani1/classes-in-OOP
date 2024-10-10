@@ -42,7 +42,13 @@ A **final class** in Java is a class that cannot be subclassed. Using the `final
 ### `Engine` Class Example
 
 The `Engine` class represents a vehicle's engine. It is marked as `final` to prevent any subclass from altering its fundamental behavior.
-
+---
+## Superclass/Base Class: Vehicle
+### What is a Superclass/Base Class?
+A **superclass**  is a class that serves as a parent from which other classes (subclasses) inherit properties and behaviors. It encapsulates common attributes and methods that are shared across multiple subclasses, promoting code reuse and reducing duplication..
+### `Engine` Class Example
+Vehicle Class Example
+The Vehicle class serves as the base class for all vehicle types in the project. It contains common attributes like model and year, and methods such as start() and stop().
 ```java
 public final class Engine {
     private String engineType;
@@ -70,14 +76,7 @@ public final class Engine {
         return horsepower;
     }
 }
----
-## Superclass/Base Class: Vehicle
-### What is a Superclass/Base Class?
-A **superclass**  is a class that serves as a parent from which other classes (subclasses) inherit properties and behaviors. It encapsulates common attributes and methods that are shared across multiple subclasses, promoting code reuse and reducing duplication..
-### `Engine` Class Example
-Vehicle Class Example
-The Vehicle class serves as the base class for all vehicle types in the project. It contains common attributes like model and year, and methods such as start() and stop().
-```java
+//Superclass
 public class Vehicle {
     protected String model;
     protected int year;
