@@ -45,7 +45,9 @@ A **final class** in Java is a class that cannot be subclassed. Using the `final
 ### When to Use a Final Class
 
 1-When you want to create immutable classes (e.g., String in Java).
+
 2-When designing utility or helper classes that should not be extended.
+
 3-To ensure the integrity and security of critical classes.
 
 
