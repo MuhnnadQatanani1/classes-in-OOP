@@ -63,8 +63,30 @@ A **superclass**  is a class that serves as a parent from which other classes (s
 ### When to Use a Superclass/Base Class
 
 1-When multiple classes share common attributes and behaviors.
+
 2-To establish a hierarchical relationship between classes.
+
 3-To implement shared functionalities that can be overridden or extended by subclasses.
+
+---
+## Subclass: Car
+### What is a Subclass?
+
+A **subclass**   is a class that inherits from a superclass. It inherits the superclass's attributes and methods while adding its own unique features or behaviors. Subclasses can also override methods to provide specific implementations.
+### Why Use a Subclass?
+
+**Specialization**: Allows subclasses to specialize and extend the functionality of the superclass.
+**Flexibility**: Enables the creation of more specific classes based on general-purpose superclasses.
+**Polymorphism**:  Facilitates dynamic method binding and flexible code design.
+
+### When to Use a Subclass
+
+1-When creating a more specific version of a general-purpose class.
+
+2-To add or modify functionalities that are unique to the subclass.
+
+3-When leveraging polymorphism to handle objects of different subclasses uniformly.
+
 ---
 ## Subclass: Car
 ### What is a Subclass?
@@ -77,43 +99,44 @@ A **subclass**   is a class that inherits from a superclass. It inherits the sup
 ### When to Use a Subclass
 
 1-When creating a more specific version of a general-purpose class.
-2-To add or modify functionalities that are unique to the subclass.
-3-When leveraging polymorphism to handle objects of different subclasses uniformly.
----
-## Subclass: Car
-### What is a Subclass?
-A **subclass**   is a class that inherits from a superclass. It inherits the superclass's attributes and methods while adding its own unique features or behaviors. Subclasses can also override methods to provide specific implementations.
-### Why Use a Subclass?
-**Specialization**: Allows subclasses to specialize and extend the functionality of the superclass.
-**Flexibility**: Enables the creation of more specific classes based on general-purpose superclasses.
-**Polymorphism**:  Facilitates dynamic method binding and flexible code design.
 
-### When to Use a Subclass
-
-1-When creating a more specific version of a general-purpose class.
 2-To add or modify functionalities that are unique to the subclass.
+
 3-When leveraging polymorphism to handle objects of different subclasses uniformly.
+
 ---
 
 ## Key OOP Concepts
 **Encapsulation**: Bundling data and methods that operate on the data within classes.
+
 **Inheritance**: Mechanism where one class (subclass) inherits properties and behaviors from another (superclass).
+
 **Polymorphism**: Ability to treat objects of different subclasses through a common superclass interface.
+
 **Abstraction**: Hiding complex implementation details and exposing only the necessary parts of an object.
+
 ---
 
 ## Benefits of Using These Class Types
+
 **Code Reusability**: Superclasses allow defining common functionalities once and reusing them across multiple subclasses.
+
 **Maintainability**: Centralizing shared code in superclasses makes it easier to manage and update functionalities.
+
 **Flexibility and Scalability**: Subclasses can extend and customize base functionalities.
+
 **Security and Integrity**: Final classes ensure critical classes remain unaltered.
+
 **Improved Organization**: Clear hierarchical structures make the codebase more organized and easier to navigate.
+
 ---
 
 ## Getting Started
 **Prerequisites**
 Java Development Kit (JDK): Ensure that JDK 8 or higher is installed on your machine.
+
 IDE or Text Editor: Use an IDE like IntelliJ IDEA, Eclipse, or a text editor like VS Code.
+
 ---
 
 ## Conclusion
