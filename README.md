@@ -37,6 +37,7 @@ This project includes the following types of classes:
 ### What is a Final Class?
 
 A **final class** in Java is a class that cannot be subclassed. Using the `final` keyword ensures that the class's implementation remains unchanged and cannot be extended, which is useful for creating immutable classes or securing the class's behavior.
+![WhyFrustratedGIF](https://github.com/user-attachments/assets/16f33eb6-2f32-4398-b620-deece2fa3cf2)
 
 ### Why Use a Final Class?
 **Security**: Prevents unauthorized extension and modification of the class.
@@ -55,6 +56,9 @@ A **final class** in Java is a class that cannot be subclassed. Using the `final
 ## Superclass/Base Class: Vehicle
 ### What is a Superclass/Base Class?
 A **superclass**  is a class that serves as a parent from which other classes (subclasses) inherit properties and behaviors. It encapsulates common attributes and methods that are shared across multiple subclasses, promoting code reuse and reducing duplication.
+
+![WhyFrustratedGIF](https://github.com/user-attachments/assets/16f33eb6-2f32-4398-b620-deece2fa3cf2)
+
 ### Why Use a Superclass/Base Class?
 **Code Reusability**: Common functionalities are defined once and reused by multiple subclasses.
 **Maintainability**: Easier to manage and update shared features in one place.
@@ -73,6 +77,9 @@ A **superclass**  is a class that serves as a parent from which other classes (s
 ### What is a Subclass?
 
 A **subclass**   is a class that inherits from a superclass. It inherits the superclass's attributes and methods while adding its own unique features or behaviors. Subclasses can also override methods to provide specific implementations.
+
+![WhyFrustratedGIF](https://github.com/user-attachments/assets/16f33eb6-2f32-4398-b620-deece2fa3cf2)
+
 ### Why Use a Subclass?
 
 **Specialization**: Allows subclasses to specialize and extend the functionality of the superclass.
@@ -91,6 +98,9 @@ A **subclass**   is a class that inherits from a superclass. It inherits the sup
 ## Subclass: Car
 ### What is a Subclass?
 A **subclass**   is a class that inherits from a superclass. It inherits the superclass's attributes and methods while adding its own unique features or behaviors. Subclasses can also override methods to provide specific implementations.
+
+![WhyFrustratedGIF](https://github.com/user-attachments/assets/16f33eb6-2f32-4398-b620-deece2fa3cf2)
+
 ### Why Use a Subclass?
 **Specialization**: Allows subclasses to specialize and extend the functionality of the superclass.
 **Flexibility**: Enables the creation of more specific classes based on general-purpose superclasses.
